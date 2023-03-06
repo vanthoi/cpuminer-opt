@@ -70,10 +70,6 @@ Supported Algorithms
 
                           allium        Garlicoin
                           anime         Animecoin
-                          argon2        Argon2 coin (AR2)
-                          argon2d250    argon2d-crds, Credits (CRDS)
-                          argon2d500    argon2d-dyn,  Dynamic (DYN)
-                          argon2d4096   argon2d-uis, Unitus, (UIS)
                           blake         Blake-256
                           blake2b       Blake2-512
                           blake2s       Blake2-256
@@ -87,7 +83,6 @@ Supported Algorithms
                           groestl       Groestl coin
                           hex           x16r-hex
                           hmq1725       
-                          hodl          Hodlcoin
                           jha           Jackpotcoin
                           keccak        Maxcoin
                           keccakc       Creative coin
@@ -98,11 +93,9 @@ Supported Algorithms
                           lyra2rev3     lyrav2v3
                           lyra2z        
                           lyra2z330     
-                          m7m           
                           minotaur 
                           minotaurx
                           myr-gr        Myriad-Groestl
-                          neoscrypt     NeoScrypt(128, 2, 1)
                           nist5         Nist5
                           pentablake    Pentablake
                           phi1612       phi
@@ -220,7 +213,7 @@ Donations
 
 cpuminer-opt has no fees of any kind but donations are accepted.
 
- BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+ BTC: 3A4tmufE1PGs3J6o3jNsUsvSP4DXEpkUMm
 
 Happy mining!
 

@@ -75,6 +75,6 @@ included version of the files.
 
 If you like this software feel free to donate:
 
-BTC: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT
+BTC: 3A4tmufE1PGs3J6o3jNsUsvSP4DXEpkUMm
 
 

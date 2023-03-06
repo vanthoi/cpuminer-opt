@@ -65,7 +65,11 @@ If not what makes it happen or not happen?
 Change Log
 ----------
 
-v3.22.2
+v3.21.2-bf
+
+Removed algos argon2, hodl, m7m, and neoscrypt for support x86_64-apple-darwin.
+
+v3.21.2
 
 Faster SALSA SIMD shuffle for yespower, yescrypt & scryptn2.
 Fixed a couple of compiler warnings with gcc-12.

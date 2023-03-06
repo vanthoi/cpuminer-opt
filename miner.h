@@ -622,10 +622,6 @@ static const char* const algo_names[] = {
         NULL,
         "allium",
         "anime",
-        "argon2",
-        "argon2d250",
-        "argon2d500",
-        "argon2d4096",
         "axiom",
         "blake",
         "blake2b",
@@ -640,7 +636,6 @@ static const char* const algo_names[] = {
         "groestl",
         "hex",
         "hmq1725",
-        "hodl",
         "jha",
         "keccak",
         "keccakc",
@@ -651,11 +646,9 @@ static const char* const algo_names[] = {
         "lyra2rev3",
         "lyra2z",
         "lyra2z330",
-        "m7m",
         "minotaur",
         "minotaurx",
         "myr-gr",
-        "neoscrypt",
         "nist5",
         "pentablake",
         "phi1612",
@@ -783,10 +776,6 @@ Options:\n\
   -a, --algo=ALGO       specify the algorithm to use\n\
                           allium        Garlicoin (GRLC)\n\
                           anime         Animecoin (ANI)\n\
-                          argon2        Argon2 Coin (AR2)\n\
-                          argon2d250\n\
-                          argon2d500    argon2d-dyn, Dynamic (DYN)\n\
-                          argon2d4096   argon2d-uis, Unitus (UIS)\n\
                           axiom         Shabal-256 MemoHash\n\
                           blake         blake256r14 (SFR)\n\
                           blake2b       Blake2b 256\n\
@@ -801,7 +790,6 @@ Options:\n\
                           groestl       Groestl coin\n\
                           hex           x16r-hex\n\
                           hmq1725       Espers\n\
-                          hodl          Hodlcoin\n\
                           jha           jackppot (Jackpotcoin)\n\
                           keccak        Maxcoin\n\
                           keccakc       Creative Coin\n\
@@ -812,11 +800,9 @@ Options:\n\
                           lyra2rev3     lyrav2v3\n\
                           lyra2z\n\
                           lyra2z330     Lyra2 330 rows\n\
-                          m7m           Magi (XMG)\n\
                           myr-gr        Myriad-Groestl\n\
                           minotaur\n\
                           minotaurx\n\
-                          neoscrypt     NeoScrypt(128, 2, 1)\n\
                           nist5         Nist5\n\
                           pentablake    5 x blake512\n\
                           phi1612       phi\n\

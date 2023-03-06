@@ -2918,10 +2918,20 @@ out:
 
 static void show_credits()
 {
-   printf("\n         **********  "PACKAGE_NAME" "PACKAGE_VERSION"  *********** \n");
-   printf("     A CPU miner with multi algo support and optimized for CPUs\n");
-   printf("     with AVX512, SHA and VAES extensions by JayDDee.\n");
-   printf("     BTC donation address: 12tdvfF7KmAsihBXQXynT6E6th2c2pByTT\n\n");
+    if ( use_colors ) {
+        printf("\n         **********  "CL_CYN PACKAGE_NAME" "PACKAGE_VERSION CL_N"  *********** \n");
+    } else {
+        printf("\n         **********  "PACKAGE_NAME" "PACKAGE_VERSION"  *********** \n");
+    }
+
+        printf("     A CPU miner with multi algo support and optimized for CPUs\n");
+        printf("     with AES_NI and AVX2 and SHA extensions.\n");
+
+    if ( use_colors ) {
+        printf("     BTC donation address: "CL_MAG"3A4tmufE1PGs3J6o3jNsUsvSP4DXEpkUMm"CL_N"\n\n");
+    } else {
+        printf("     BTC donation address: 3A4tmufE1PGs3J6o3jNsUsvSP4DXEpkUMm\n\n");
+    }
 }
 
 #define check_cpu_capability() cpu_capability( false )
