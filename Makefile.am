@@ -22,19 +22,6 @@ cpuminer_SOURCES = \
   sysinfos.c \
   algo-gate-api.c\
   malloc-huge.c \
-  algo/argon2/argon2a/argon2a.c \
-  algo/argon2/argon2a/ar2/argon2.c \
-  algo/argon2/argon2a/ar2/opt.c \
-  algo/argon2/argon2a/ar2/cores.c \
-  algo/argon2/argon2a/ar2/ar2-scrypt-jane.c \
-  algo/argon2/argon2a/ar2/blake2b.c \
-  algo/argon2/argon2d/argon2d-gate.c \
-  algo/argon2/argon2d/blake2/blake2b.c \
-  algo/argon2/argon2d/argon2d/argon2.c \
-  algo/argon2/argon2d/argon2d/core.c \
-  algo/argon2/argon2d/argon2d/opt.c \
-  algo/argon2/argon2d/argon2d/argon2d_thread.c \
-  algo/argon2/argon2d/argon2d/encoding.c \
   algo/blake/sph_blake.c \
   algo/blake/blake256-hash-4way.c \
   algo/blake/blake512-hash-4way.c \
@@ -91,11 +78,6 @@ cpuminer_SOURCES = \
   algo/hamsi/hamsi-hash-4way.c \
   algo/haval/haval.c \
   algo/haval/haval-hash-4way.c \
-  algo/hodl/aes.c \
-  algo/hodl/hodl-gate.c \
-  algo/hodl/hodl-wolf.c \
-  algo/hodl/sha512_avx.c \
-  algo/hodl/sha512_avx2.c \
   algo/jh/sph_jh.c \
   algo/jh/jh-hash-4way.c \
   algo/jh/jha-gate.c \
@@ -130,8 +112,6 @@ cpuminer_SOURCES = \
   algo/lyra2/allium.c \
   algo/lyra2/phi2-4way.c \
   algo/lyra2/phi2.c \
-  algo/m7m/m7m.c \
-  algo/m7m/magimath.cpp \
   algo/nist5/nist5-gate.c \
   algo/nist5/nist5-4way.c \
   algo/nist5/nist5.c \
@@ -160,7 +140,6 @@ cpuminer_SOURCES = \
   algo/ripemd/lbry-4way.c \
   algo/scrypt/scrypt.c \
   algo/scrypt/scrypt-core-4way.c \
-  algo/scrypt/neoscrypt.c \
   algo/sha/sha256-hash.c \
   algo/sha/sph_sha2.c \
   algo/sha/sph_sha2big.c \

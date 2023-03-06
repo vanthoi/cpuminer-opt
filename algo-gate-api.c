@@ -297,10 +297,6 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
   {
     case ALGO_ALLIUM:       rc = register_allium_algo        ( gate ); break;
     case ALGO_ANIME:        rc = register_anime_algo         ( gate ); break;
-    case ALGO_ARGON2:       rc = register_argon2_algo        ( gate ); break;
-    case ALGO_ARGON2D250:   rc = register_argon2d_crds_algo  ( gate ); break;
-    case ALGO_ARGON2D500:   rc = register_argon2d_dyn_algo   ( gate ); break;
-    case ALGO_ARGON2D4096:  rc = register_argon2d4096_algo   ( gate ); break;
     case ALGO_AXIOM:        rc = register_axiom_algo         ( gate ); break;
     case ALGO_BLAKE:        rc = register_blake_algo         ( gate ); break;
     case ALGO_BLAKE2B:      rc = register_blake2b_algo       ( gate ); break;
@@ -314,7 +310,6 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
     case ALGO_GROESTL:      rc = register_groestl_algo       ( gate ); break;
     case ALGO_HEX:          rc = register_hex_algo           ( gate ); break;
     case ALGO_HMQ1725:      rc = register_hmq1725_algo       ( gate ); break;
-    case ALGO_HODL:         rc = register_hodl_algo          ( gate ); break;
     case ALGO_JHA:          rc = register_jha_algo           ( gate ); break;
     case ALGO_KECCAK:       rc = register_keccak_algo        ( gate ); break;
     case ALGO_KECCAKC:      rc = register_keccakc_algo       ( gate ); break;
@@ -325,11 +320,9 @@ bool register_algo_gate( int algo, algo_gate_t *gate )
     case ALGO_LYRA2REV3:    rc = register_lyra2rev3_algo     ( gate ); break;
     case ALGO_LYRA2Z:       rc = register_lyra2z_algo        ( gate ); break;
     case ALGO_LYRA2Z330:    rc = register_lyra2z330_algo     ( gate ); break;
-    case ALGO_M7M:          rc = register_m7m_algo           ( gate ); break;
     case ALGO_MINOTAUR:     rc = register_minotaur_algo      ( gate ); break;
     case ALGO_MINOTAURX:    rc = register_minotaur_algo      ( gate ); break;
     case ALGO_MYR_GR:       rc = register_myriad_algo        ( gate ); break;
-    case ALGO_NEOSCRYPT:    rc = register_neoscrypt_algo     ( gate ); break;
     case ALGO_NIST5:        rc = register_nist5_algo         ( gate ); break;
     case ALGO_PENTABLAKE:   rc = register_pentablake_algo    ( gate ); break;
     case ALGO_PHI1612:      rc = register_phi1612_algo       ( gate ); break;
@@ -419,8 +412,6 @@ void exec_hash_function( int algo, void *output, const void *pdata )
 const char* const algo_alias_map[][2] =
 {
 //   alias                proper
-  { "argon2d-dyn",       "argon2d500"     },
-  { "argon2d-uis",       "argon2d4096"    },
   { "bcd",               "x13bcd"         },
   { "bitcore",           "timetravel10"   },
   { "bitzeny",           "yescryptr8"     },
@@ -438,7 +429,6 @@ const char* const algo_alias_map[][2] =
   { "lyra2v3",           "lyra2rev3"      },
   { "myrgr",             "myr-gr"         },
   { "myriad",            "myr-gr"         },
-  { "neo",               "neoscrypt"      },
   { "phi",               "phi1612"        },
   { "scryptn2",          "scrypt:1048576" },
   { "sib",               "x11gost"        },
